@@ -1,0 +1,29 @@
+/* All nav-related CSS should go here */
+
+/* Fixed nav bar */
+#nav-bar {
+    position: fixed;
+    background-color: #00a087;
+    color: #e8fdff;
+    height: 80px;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 1;
+}
+
+/* Fixed logo */
+#nav-bar .logo {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+/* Fixed header */
+#nav-bar .header {
+    font-size: 200%;
+    float: left;
+    position: relative;
+    left: 10px;
+    line-height: 80px;
+}

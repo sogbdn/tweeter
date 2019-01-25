@@ -1,0 +1,37 @@
+/* Select the child of main elet to dev*/
+
+
+section.new-tweet {
+    border: 1px solid darkgrey;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.new-tweet h2 {
+    border-bottom: 2px solid darkslategrey;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    text-align: left;
+}
+
+.new-tweet textarea[name="text"] {
+    width: 100%;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid darkgrey;
+}
+
+.new-tweet input[type="submit"] {
+    float: left;
+}
+
+.new-tweet span[class="counter"] {
+    float: right;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
