@@ -60,7 +60,13 @@ $(document).ready(function () {
 			$.ajax({
 				url: $(this).attr("action"), //location of the script to send the data
 				method: "POST", //HTTP method POST used for the request
-				data: dataSt
+				data: dataSt,
+				success: function renderTweetswithoutLoop(data) {
+					// calls createTweetElement for each tweet
+					let tweetHTML = createTweetElement(data);
+					// takes return value and appends it to the HTML tweets container
+					$("#tweet-container").append(tweetHTML);
+				}
 			})
 		}
 	});
@@ -73,6 +79,5 @@ $(document).ready(function () {
 			success: renderTweets
 		})
 	}
-
 	loadTweets();
 });
