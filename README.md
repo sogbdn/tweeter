@@ -15,6 +15,12 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+-body-parser
+- chance
+- md5
+- nodemon
 
 ## Srennshots
+![Screnshot of box and error msg] https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box-errormsg.png
+![Screenshot of compose box] https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box.png
 
