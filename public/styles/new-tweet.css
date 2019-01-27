@@ -6,6 +6,7 @@ section.new-tweet {
     border-radius: 0.5rem;
     padding: 1rem;
     background-color: #eee;
+    margin: 5px;
 }
 
 .new-tweet h2 {

@@ -39,16 +39,16 @@ function renderTweets(tweets) {
 		// calls createTweetElement for each tweet
 		let tweetHTML = createTweetElement(elt);
 		// takes return value and appends it to the HTML tweets container
-		$("#tweet-container").append(tweetHTML);
+		$("#tweet-container").prepend(tweetHTML);
 	}
 }
-
+// To load the DOM in external JS file
 $(document).ready(function () {
 
 	// Cancel the default action of form submission by HTTP request POST
 	$("#form_submit").on("submit", function (event) {
 		event.preventDefault(); //prevent form from submitting
-		// 
+
 		if (this[0].value === "") {
 			alert("Your tweet is empty!")
 		}
@@ -65,7 +65,7 @@ $(document).ready(function () {
 					// calls createTweetElement for each tweet
 					let tweetHTML = createTweetElement(data);
 					// takes return value and appends it to the HTML tweets container
-					$("#tweet-container").append(tweetHTML);
+					$("#tweet-container").prepend(tweetHTML);
 				}
 			})
 		}
@@ -80,4 +80,11 @@ $(document).ready(function () {
 		})
 	}
 	loadTweets();
+
+	$("#nav-bar button").click(function () {
+		// Implement Toogle
+		$(".new-tweet").slideToggle();
+		// Select and focus on textarea
+		$(".new-tweet textarea").focus();
+	});
 });

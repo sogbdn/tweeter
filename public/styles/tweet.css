@@ -1,14 +1,21 @@
 #tweet-container {
-	border: 1px solid darkgrey;
-	border-radius: 0.5rem;
 	background-color: white;
+	margin: 5px;
 }
 
 #tweet-container header {
 	background-color: #eee;
+	border-radius: 0.5rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+#tweet-container .tweet {
+	border: 1px solid darkgrey;
+	border-radius: 0.5rem;
+	background-color: white;
+	margin-bottom: 7px;
 }
 
 .photo {
