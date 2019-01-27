@@ -39,6 +39,8 @@
       <h2>Compose Tweet</h2>
       <form class="clearfix" action="/tweets/" method="POST" id="form_submit">
         <textarea name="text" placeholder="What are you humming about?"></textarea>
+        <div hidden id="empty">Your tweet is empty, please type something!</div>
+        <div hidden id="toolong">Your tweet is too long. No more than 140 characters please!</div>
         <input type="submit" value="Tweet" /> <span class="counter">140</span>
       </form>
     </section>

@@ -48,12 +48,15 @@ $(document).ready(function () {
 	// Cancel the default action of form submission by HTTP request POST
 	$("#form_submit").on("submit", function (event) {
 		event.preventDefault(); //prevent form from submitting
+		// Delete error message when submitting
+		$("#empty").slideUp();
+		$("#toolong").slideUp();
 
 		if (this[0].value === "") {
-			alert("Your tweet is empty!")
+			$("#empty").slideDown();
 		}
 		if (this[0].value.length > 140) {
-			alert("Your tweet is too long!")
+			$("#toolong").slideDown();
 		} else {
 			var dataSt = $(this).serialize(); //turn form data (object) to query string 
 			// AJAX request POST: send dataSt to the server
@@ -82,7 +85,7 @@ $(document).ready(function () {
 	loadTweets();
 
 	$("#nav-bar button").click(function () {
-		// Implement Toogle
+		// Implement Toogle on Compose button
 		$(".new-tweet").slideToggle();
 		// Select and focus on textarea
 		$(".new-tweet textarea").focus();

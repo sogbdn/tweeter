@@ -23,6 +23,24 @@ section.new-tweet {
     border: 1px solid darkgrey;
 }
 
+.new-tweet #empty {
+    color: red;
+    width: 50%;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border: 3px solid red;
+}
+
+.new-tweet #toolong {
+    color: red;
+    width: 50%;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border: 3px solid red;
+}
+
 .new-tweet input[type="submit"] {
     float: left;
 }
