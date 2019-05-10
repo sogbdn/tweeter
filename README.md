@@ -2,9 +2,12 @@
 
 Tweeter is a simple, single-page Twitter clone.
 This repository is my code for the project.
-
 Font-end skills: HTML, CSS, JS, jQuery and AJAX 
 Back-end skills: Node and Express 
+
+## Sreenshots
+!["Screnshot of boxes and error msg"](https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box-errormsg.png)
+!["Screenshot of compose box"](https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box.png)
 
 ## Getting Started
 
@@ -17,14 +20,14 @@ Back-end skills: Node and Express
 
 - Express
 - Node 5.10.x or above
--body-parser
+- Body-parser
 - chance
 - md5
 - nodemon
 
 ## Sreenshots
-!["Screnshot of boxes and error msg"] (https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box-errormsg.png)
-!["Screenshot of compose box"] (https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box.png)
+!["Screnshot of boxes and error msg"](https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box-errormsg.png)
+!["Screenshot of compose box"](https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box.png)
 
 
 
