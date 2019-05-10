@@ -22,9 +22,9 @@ Back-end skills: Node and Express
 - md5
 - nodemon
 
-## Srennshots
-![Screnshot of boxes and error msg] (https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box-errormsg.png)
-![Screenshot of compose box] (https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box.png)
+## Sreenshots
+!["Screnshot of boxes and error msg"] (https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box-errormsg.png)
+!["Screenshot of compose box"] (https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box.png)
 
 
 
