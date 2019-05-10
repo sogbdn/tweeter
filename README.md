@@ -5,7 +5,7 @@ This repository is my code for the project.
 Font-end skills: HTML, CSS, JS, jQuery and AJAX 
 Back-end skills: Node and Express 
 
-## Sreenshots
+## Screenshots
 !["Screnshot of boxes and error msg"](https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box-errormsg.png)
 !["Screenshot of compose box"](https://github.com/sogbdn/tweeter/blob/master/docs/tweet-box.png)
 
